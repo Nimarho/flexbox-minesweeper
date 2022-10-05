@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.tableau{
+    display: flex;
+    background-color: grey;
+    width: 640px;
+    height: 640px;
+    flex-flow: wrap;
+    align-content: space-around; 
+    justify-content: space-around;
+    border-width: 10px;
+    border-style: ridge;
+}
+
+.tableau div{
+    background-color: lightgray;
+    font-family: 'VT323', monospace;
+    font-size : 70px;
+    width: 74px;
+    height: 74px;
+    margin: 0px;
+    border: 3px dashed;
+    /* border-bottom: 3px dashed; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.hidden{
+    width: 74px;
+    height: 74px;
+    border: 3px solid;
+    border-color: black;
+    color: lightgray;
+}
+
+.hidden:hover{
+    /* width: 77px;
+    height: 77px;
+    border-right: 3px dashed;
+    border-bottom: 3px dashed; */
+    width: 74px;
+    height: 74px;
+    margin: 0px;
+    border: 3px dashed;
+    color: black;
+}
