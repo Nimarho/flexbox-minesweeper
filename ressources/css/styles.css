@@ -38,7 +38,7 @@ body{
 }
 
 .hidden{
-    content: url(/ressources/images/minesweepertile60px.png);
+    content: url(../images/minesweepertile60px.png);
     border: 3px outset;
     border-color: gray;
 }
